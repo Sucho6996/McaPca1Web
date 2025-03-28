@@ -1,0 +1,68 @@
+body {
+    background-image: url("./img/world-political-map-2020.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+table {
+    border-spacing: 20px;
+    width: 50%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  th {
+    background-color: #ec6c6c;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin: auto;
+    border-color: aqua;
+    border-radius: 25%;
+    box-shadow:6px -6px 20px rgb(5, 159, 159);
+    display:ruby-text-container;
+  }
+  li{
+    background-color: #e43b3b;
+    color: white; /* White text color */
+    text-align: left;
+    padding: 20px 10px;
+    margin: 30px;
+    border-color: aqua;
+    border-radius: 35%;
+    box-shadow:6px -6px black;
+    display: inline-block;
+  }
+  li:hover{
+    background-color: chartreuse;
+  }
+  th:hover {
+    background-color: chartreuse; /* Light gray on hover */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; /* Elegant font style */
+    color: #e02929; /* Dark gray text color */
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(50, 185, 215);
+    box-shadow: 6px -6px 20px rgb(86, 124, 220);
+  }
+
+  a {
+    background-color: #ec7c7c;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px ;
+    border-radius: 25%;
+    text-shadow: 2px -2px 5px blueviolet;
+  }
+  a:hover {
+    background-color: black;
+    color: white;
+  }
